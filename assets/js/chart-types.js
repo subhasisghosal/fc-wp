@@ -86,28 +86,181 @@ var fc_chartTypes = [{
             ]"
     }, {
         name: "Pie 3D",
-        id: "Pie3D"
+        id: "Pie3D",
+        JSONdata: "[
+                {
+                    "label": "Teenage",
+                    "value": "1250400"
+                }, 
+                {
+                    "label": "Adult",
+                    "value": "1463300"
+                }, 
+                {
+                    "label": "Mid-age",
+                    "value": "1050700"
+                }, 
+                {
+                    "label": "Senior",
+                    "value": "491000"
+                }
+            ]"
     }, {
         name: "Pie 2D",
-        id: "Pie2D"
+        id: "Pie2D",
+        JSONdata: "[
+                {
+                    "label": "Teenage",
+                    "value": "1250400"
+                }, 
+                {
+                    "label": "Adult",
+                    "value": "1463300"
+                }, 
+                {
+                    "label": "Mid-age",
+                    "value": "1050700"
+                }, 
+                {
+                    "label": "Senior",
+                    "value": "491000"
+                }
+            ]"
     }, {
         name: "Line 2D",
-        id: "Line"
+        id: "Line",
+        JSONdata: "[
+                {
+                    "label": "Mon",
+                    "value": "15123"
+                },
+                {
+                    "label": "Tue",
+                    "value": "14233"
+                },
+                {
+                    "label": "Wed",
+                    "value": "23507"
+                },
+                {
+                    "label": "Thu",
+                    "value": "9110"
+                },
+                {
+                    "label": "Fri",
+                    "value": "15529"
+                },
+                {
+                    "label": "Sat",
+                    "value": "20803"
+                },
+                {
+                    "label": "Sun",
+                    "value": "19202"
+                }
+            ]"
     }, {
         name: "Area 2D",
-        id: "Area2D"
+        id: "Area2D",
+        JSONdata: "[
+                {
+                    "label": "Mon",
+                    "value": "4123"
+                }, 
+                {
+                    "label": "Tue",
+                    "value": "4633"
+                }, 
+                {
+                    "label": "Wed",
+                    "value": "5507"
+                }, 
+                {
+                    "label": "Thu",
+                    "value": "4910"
+                }, 
+                {
+                    "label": "Fri",
+                    "value": "5529"
+                }, 
+                {
+                    "label": "Sat",
+                    "value": "5803"
+                }, 
+                {
+                    "label": "Sun",
+                    "value": "6202"
+                }
+            ]"
     }, {
         name: "Bar 2D",
-        id: "Bar2D"
+        id: "Bar2D",
+        JSONdata: "[
+                {
+                    "label": "Bakersfield Central",
+                    "value": "880000"
+                }, 
+                {
+                    "label": "Garden Groove harbour",
+                    "value": "730000"
+                }, 
+                {
+                    "label": "Los Angeles Topanga",
+                    "value": "590000"
+                }, 
+                {
+                    "label": "Compton-Rancho Dom",
+                    "value": "520000"
+                }, 
+                {
+                    "label": "Daly City Serramonte",
+                    "value": "330000"
+                }
+            ]"
     }, {
         name: "Doughnut 2D",
-        id: "Doughnut2D"
+        id: "Doughnut2D",
+        JSONdata: "[
+                {
+                    "label": "Food",
+                    "value": "28504"
+                }, 
+                {
+                    "label": "Apparels",
+                    "value": "14633"
+                }, 
+                {
+                    "label": "Electronics",
+                    "value": "10507"
+                }, 
+                {
+                    "label": "Household",
+                    "value": "4910"
+                }
+            ]"
     }, {
         name: "Doughnut 3D",
-        id: "Doughnut3D"
+        id: "Doughnut3D",
+        JSONdata: "[
+                {
+                    "label": "Food",
+                    "value": "28504"
+                }, 
+                {
+                    "label": "Apparels",
+                    "value": "14633"
+                }, 
+                {
+                    "label": "Electronics",
+                    "value": "10507"
+                }, 
+                {
+                    "label": "Household",
+                    "value": "4910"
+                }
+            ]"
     },
-
-
+    
     {
         name: "Multi-series Column 2D",
         id: "MSColumn2D"
@@ -127,7 +280,6 @@ var fc_chartTypes = [{
         name: "Multi-series Bar 3D",
         id: "MSBar3D"
     },
-
 
     {
         name: "Stacked Column 2D",
