@@ -486,13 +486,91 @@ var fc_chartTypes = [{
 
     {
         name: "Scroll Column 2D",
-        id: "ScrollColumn2D"
+        id: "ScrollColumn2D",
+        JSONdata: '[
+                        { "value": "27400" },
+                        { "value": "29800" },
+                        { "value": "25800" },
+                        { "value": "26800" },
+                        { "value": "29600" },
+                        { "value": "32600" },
+                        { "value": "31800" },
+                        { "value": "36700" },
+                        { "value": "29700" },
+                        { "value": "31900" },
+                        { "value": "34800" },
+                        { "value": "24800" },
+                        { "value": "26300" },
+                        { "value": "31800" },
+                        { "value": "30900" },
+                        { "value": "33000" },
+                        { "value": "36200" },
+                        { "value": "32100" },
+                        { "value": "37500" },
+                        { "value": "38500" },
+                        { "value": "35400" },
+                        { "value": "38200" },
+                        { "value": "33300" },
+                        { "value": "38300" }
+                    ]'
     }, {
         name: "Scroll Line 2D",
-        id: "ScrollLine2D"
+        id: "ScrollLine2D",
+        JSONdata: '[
+                        { "value": "27400" },
+                        { "value": "29800" },
+                        { "value": "25800" },
+                        { "value": "26800" },
+                        { "value": "29600" },
+                        { "value": "32600" },
+                        { "value": "31800" },
+                        { "value": "36700" },
+                        { "value": "29700" },
+                        { "value": "31900" },
+                        { "value": "34800" },
+                        { "value": "24800" },
+                        { "value": "26300" },
+                        { "value": "31800" },
+                        { "value": "30900" },
+                        { "value": "33000" },
+                        { "value": "36200" },
+                        { "value": "32100" },
+                        { "value": "37500" },
+                        { "value": "38500" },
+                        { "value": "35400" },
+                        { "value": "38200" },
+                        { "value": "33300" },
+                        { "value": "38300" }
+                    ]'
     }, {
         name: "Scroll Area 2D",
-        id: "ScrollArea2D"
+        id: "ScrollArea2D",
+        JSONdata: '[
+                        { "value": "27400" },
+                        { "value": "29800" },
+                        { "value": "25800" },
+                        { "value": "26800" },
+                        { "value": "29600" },
+                        { "value": "32600" },
+                        { "value": "31800" },
+                        { "value": "36700" },
+                        { "value": "29700" },
+                        { "value": "31900" },
+                        { "value": "34800" },
+                        { "value": "24800" },
+                        { "value": "26300" },
+                        { "value": "31800" },
+                        { "value": "30900" },
+                        { "value": "33000" },
+                        { "value": "36200" },
+                        { "value": "32100" },
+                        { "value": "37500" },
+                        { "value": "38500" },
+                        { "value": "35400" },
+                        { "value": "38200" },
+                        { "value": "33300" },
+                        { "value": "38300" }
+                    ]'
     }, {
         name: "Scroll Stacked Column 2D",
         id: "ScrollStackedColumn2D"
