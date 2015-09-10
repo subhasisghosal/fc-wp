@@ -1,9 +1,89 @@
 var fc_chartTypes = [{
         name: "Column 2D",
-        id: "Column2D"
+        id: "Column2D",
+        JSONdata: "[
+                {
+                    "label": "Mon",
+                    "value": "4123"
+                }, 
+                {
+                    "label": "Tue",
+                    "value": "4633"
+                }, 
+                {
+                    "label": "Wed",
+                    "value": "5507"
+                }, 
+                {
+                    "label": "Thu",
+                    "value": "4910"
+                }, 
+                {
+                    "label": "Fri",
+                    "value": "5529"
+                }, 
+                {
+                    "label": "Sat",
+                    "value": "5803"
+                }, 
+                {
+                    "label": "Sun",
+                    "value": "6202"
+                }
+            ]"
     }, {
         name: "Column 3D",
-        id: "Column3D"
+        id: "Column3D",
+        JSONdata: "[
+                {
+                    "label": "Jan",
+                    "value": "420000"
+                },
+                {
+                    "label": "Feb",
+                    "value": "810000"
+                },
+                {
+                    "label": "Mar",
+                    "value": "720000"
+                },
+                {
+                    "label": "Apr",
+                    "value": "550000"
+                },
+                {
+                    "label": "May",
+                    "value": "910000"
+                },
+                {
+                    "label": "Jun",
+                    "value": "510000"
+                },
+                {
+                    "label": "Jul",
+                    "value": "680000"
+                },
+                {
+                    "label": "Aug",
+                    "value": "620000"
+                },
+                {
+                    "label": "Sep",
+                    "value": "610000"
+                },
+                {
+                    "label": "Oct",
+                    "value": "490000"
+                },
+                {
+                    "label": "Nov",
+                    "value": "900000"
+                },
+                {
+                    "label": "Dec",
+                    "value": "730000"
+                }
+            ]"
     }, {
         name: "Pie 3D",
         id: "Pie3D"
