@@ -263,16 +263,180 @@ var fc_chartTypes = [{
     
     {
         name: "Multi-series Column 2D",
-        id: "MSColumn2D"
+        id: "MSColumn2D",
+        JSONdata: '{"categories": "[
+                {
+                    \"category\": \"[
+                        { \"label\": \"Q1\" },
+                        { \"label\": \"Q2\" },
+                        { \"label\": \"Q3\" },
+                        { \"label\": \"Q4\" }
+                    ]\"
+                }
+            ]",
+            "dataset": "[
+                {
+                    \"seriesname\": \"Previous Year\",
+                    \"data\": \"[
+                        { \"value\": \"10000\" }, 
+                        { \"value\": \"11500\" }, 
+                        { \"value\": \"12500\" }, 
+                        { \"value\": \"15000\" }
+                    ]\"
+                }, 
+                {
+                    \"seriesname\": \"Current Year\",\
+                    \"data\": \"[
+                        { \"value\": \"25400\" }, 
+                        { \"value\": \"29800\" }, 
+                        { \"value\": \"21800\" }, 
+                        { \"value\": \"26800\" }
+                    ]\"
+                }
+            ]"}'
     }, {
         name: "Multi-series Column 3D",
-        id: "MSColumn3D"
+        id: "MSColumn3D",
+        JSONdata: '{"categories": [
+                {
+                    \"category\": \"[
+                        {
+                            \"label\": \"Q1\"
+                        },
+                        {\
+                            \"label\": \"Q2\"
+                        },
+                        {
+                            \"label\": \"Q3\"
+                        },
+                        {
+                            \"label\": \"Q4\"
+                        }
+                    ]\"
+                }
+            ],
+            "dataset": "[
+                {
+                    \"seriesname\": \"Previous Year\",
+                    \"data\": \"[
+                        {
+                            \"value\": \"10000\"
+                        },
+                        {
+                            \"value\": \"11500\"
+                        },
+                        {
+                            \"value\": \"12500\"
+                        },
+                        {
+                            \"value\": \"15000\"
+                        }
+                    ]\"
+                },
+                {
+                    \"seriesname\": \"Current Year\",
+                    \"data\": \"[
+                        {
+                            \"value\": \"25400\"
+                        },
+                        {
+                            \"value\": \"29800\"
+                        },
+                        {
+                            \"value\": \"21800\"
+                        },
+                        {
+                            \"value\": \"26800\"
+                        }
+                    ]\"
+                }
+            ]"}'
     }, {
         name: "Multi-series Line 2D",
-        id: "MSLine"
+        id: "MSLine",
+        JSONdata: '[
+                {
+                    "seriesname": "Bakersfield Central",
+                    "data": "[
+                        { \"value\": \"15123\" }, 
+                        { \"value\": \"14233\" }, 
+                        { \"value\": \"25507\" }, 
+                        { \"value\": \"9110\" }, 
+                        { \"value\": \"15529\" }, 
+                        { \"value\": \"20803\" }, 
+                        { \"value\": \"19202\" }
+                    ]"
+                }, 
+                {
+                    "seriesname": "Los Angeles Topanga",
+                    "data": "[
+                        { \"value\": \"13400\" }, 
+                        { \"value\": \"12800\" }, 
+                        { \"value\": \"22800\" }, 
+                        { \"value\": \"12400\" }, 
+                        { \"value\": \"15800\" }, 
+                        { \"value\": \"19800\" }, 
+                        { \"value\": \"21800\" }
+                    ]"
+                }
+            ]'
     }, {
         name: "Multi-series Area 2D",
-        id: "MSArea"
+        id: "MSArea",
+        JSONdata: '[
+                {
+                    "seriesname": "Previous Week",
+                    "data": "[
+                        {
+                            \"value\": \"13000\"
+                        }, 
+                        {
+                            \"value\": \"14500\"
+                        }, 
+                        {
+                            \"value\": \"13500\"
+                        }, 
+                        {
+                            \"value\": \"15000\"
+                        }, 
+                        {
+                            \"value\": \"15500\"
+                        }, 
+                        {
+                            \"value\": \"17650\"
+                        }, 
+                        {
+                            \"value\": \"19500\"
+                        }
+                    ]"
+                }, 
+                {
+                    "seriesname": "Current Week",
+                    "data": "[
+                        {
+                            \"value\": \"8400\"
+                        }, 
+                        {
+                            \"value\": \"9800\"
+                        }, 
+                        {
+                            \"value\": \"11800\"
+                        }, 
+                        {
+                            \"value\": \"14400\"
+                        }, 
+                        {
+                            \"value\": \"18800\"
+                        }, 
+                        {
+                            \"value\": \"24800\"
+                        }, 
+                        {
+                            \"value\": \"30800\"
+                        }
+                    ]"
+                }
+            ]'
     }, {
         name: "Multi-series Bar 2D",
         id: "MSBar2D"
